@@ -57,7 +57,6 @@ def descenso_gradiente(grad_func, punto_inicial, tasa_aprendizaje, iteraciones):
     return np.array(historial)
 
 
-@st.cache_data
 def encontrar_minimo(_grid_x, _grid_y, iteraciones=3000, eta=0.05):
     """
     Encuentra el mínimo de f2 de forma automática:
